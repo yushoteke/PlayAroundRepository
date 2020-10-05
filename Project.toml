@@ -1,0 +1,13 @@
+name = "PlayAroundPackage"
+uuid = "22afe329-1918-4f2d-ae76-d93ea6c35c6d"
+authors = ["David Yang"]
+version = "0.1.0"
+
+[compat]
+julia = "1.4"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
